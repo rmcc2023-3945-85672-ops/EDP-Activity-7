@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>LibraryIS</AssemblyName>
+    <RootNamespace>LibrarySystem</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MySQL connector — Activity 5 original dependency -->
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+    <!-- EPPlus — Excel export for FormReports (Activity 6) -->
+    <!-- License: PolyForm Noncommercial (free for academic/school use) -->
+    <PackageReference Include="EPPlus" Version="6.2.10" />
+  </ItemGroup>
+
+</Project>
